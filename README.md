@@ -1,4 +1,4 @@
-```text   Isolated (Developed by Spectral Garden)
+ Isolated (Developed by Spectral Garden)
 *Advanced Multi-Band Drum Isolation & Frequency Sweep Processor*
 
 **Isolated** is a specialized real-time audio plugin designed for surgical drum separation, transient management, and dynamic frequency sweeping. Powered by multi-stage transient splitters (TSS) and specialized channel frequency cross-overs, it allows producers to independently isolate, mix, and shape individual drum elements (Kick, Snare, Hats, Percussion, and Other) from a full stereo mix.
