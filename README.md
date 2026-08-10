@@ -1,11 +1,11 @@
-```# 🎛️ Isolated (Developed by Spectral Garden)
+```text   Isolated (Developed by Spectral Garden)
 *Advanced Multi-Band Drum Isolation & Frequency Sweep Processor*
 
 **Isolated** is a specialized real-time audio plugin designed for surgical drum separation, transient management, and dynamic frequency sweeping. Powered by multi-stage transient splitters (TSS) and specialized channel frequency cross-overs, it allows producers to independently isolate, mix, and shape individual drum elements (Kick, Snare, Hats, Percussion, and Other) from a full stereo mix.
 
 ---
 
-## 🔬 Core DSP Architecture & Signal Processing
+##  Core DSP Architecture & Signal Processing
 
 1. **Multi-Band Crossover Engine (`channelFilters`)**: Splits incoming audio channels across dedicated frequency bands to segment percussion types.
 2. **Transient/Sustain Splitter (TSS)**: Separates transient hits from body sustain per band, allowing independent manipulation of transient attack and release properties.
@@ -15,7 +15,7 @@
 
 ---
 
-## 🎛️ Control Parameter Reference
+##  Control Parameter Reference
 
 ### Dynamic Channel Levels (Mix Matrix)
 | Control | Range | Default | Description |
@@ -52,13 +52,13 @@
 
 ---
 
-## 💾 State Management & Serialization
+##  State Management & Serialization
 * **APVTS Framework**: Uses JUCE's robust `AudioProcessorValueTreeState` architecture to handle parameter automation and host sync.
 * **State Recall**: Fully supports chunk-based preset saving and loading via standard XML serialization (`getStateInformation` / `setStateInformation`).
 
 ---
 
-## 💻 Compilation Requirements
+##  Compilation Requirements
 * **Framework**: JUCE 8.0+
 * **Build Target**: VST3 (Windows x64)
 * **C++ Standard**: C++20
